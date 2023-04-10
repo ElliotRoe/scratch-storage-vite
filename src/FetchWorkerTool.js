@@ -34,7 +34,7 @@ class PrivateFetchWorkerTool {
         try {
             if (this.isGetSupported) {
                 // eslint-disable-next-line global-require
-                const FetchWorker = require('worker-loader?{"inline":true,"fallback":true}!./FetchWorkerTool.worker');
+                const FetchWorker = require('./FetchWorkerTool.worker.js?worker&inline');
 
                 const worker = new FetchWorker();
 
