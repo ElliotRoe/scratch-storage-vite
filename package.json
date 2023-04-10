@@ -1,7 +1,7 @@
 {
-  "name": "scratch-storage",
+  "name": "scratch-storage-vite",
   "version": "0.0.0-development",
-  "description": "Load and store project and asset files for Scratch 3.0",
+  "description": "Load and store project and asset files for Scratch 3.0; Vite version",
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/LLK/scratch-storage#readme",
   "repository": {
